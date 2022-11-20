@@ -1,0 +1,61 @@
+#face{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 0px auto;
+	background-color: yellow;
+	border-radius: 200px;
+}
+
+.eyeleft{
+	background-color: white;
+	position: absolute;
+	right: 80px;
+	top: 70px;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	z-index: 3;
+}
+.eyeright{
+	background-color: white;
+	position: absolute;
+	left: 80px;
+	top: 70px;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	z-index: 3;
+}
+
+.nouse{
+	background-color: white;
+	position: absolute;
+	left: 165px;
+	top: 200px;
+	width: 70px;
+	height: 70px;
+	z-index: 3;
+	border-radius: 35px;
+	
+}
+.mouth{
+	background-color: white;
+	position: absolute;
+	left: 100px;
+	top: 155px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	z-index: 1;
+}
+.mouth2{
+	background-color: yellow;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	z-index: 2;
+}
